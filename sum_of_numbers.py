@@ -11,14 +11,15 @@ def main():
     # this function calculates the sum of two numbers inputted by user
 
     # input
-    number_one = int(input("Enter the first number: "))
-    number_two = int(input("Enter the second number: "))
+    number_one = float(input("Enter the first number: "))
+    number_two = float(input("Enter the second number: "))
+
     # process
-    sum_of_numbers = number_one + number_two
+    sum_of_num = number_one + number_two
 
     # output
     print("")
-    print("The sum of the two numbers is {0}.".format(sum_of_numbers))
+    print("{0:,.0f} + {1:,.0f} = {2:,.0f}.".format(number_one, number_two, sum_of_num))
 
     print("\nDone.")
 
